@@ -10,6 +10,23 @@ nav grey: #5b5e6d;
   margin: 0;
 }
 
+body {
+  margin: 0 7vw;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  padding: 25px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2c303f;
+  font-family: "Times New Roman", Times, serif;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -26,6 +43,41 @@ nav {
 
 nav img {
   height: 10vh;
+}
+
+/* HEADER */
+
+header {
+  margin-top: 14vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+header .e-mail {
+  border: 1px solid grey;
+  border-radius: 5px;
+  /* height: 35px; */
+  padding: 10px 10px;
+  color: grey;
+}
+
+header button {
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #192592;
+  background-color: #192592;
+  color: white;
+}
+
+header .header-img {
+  order: 2;
+  width: 75%;
+  align-self: center;
+}
+
+header .sign-up {
+  align-self: center;
 }
 
 /* width < 768px */
