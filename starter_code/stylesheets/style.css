@@ -33,7 +33,7 @@ nav {
   left: 0;
   right: 0;
   /* width: 100vw; */
-  height: 10vh;
+  height: 40px;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -42,7 +42,7 @@ nav {
 }
 
 nav img {
-  height: 10vh;
+  height: 100%;
 }
 
 /* HEADER */
@@ -74,11 +74,20 @@ header .header-img {
   order: 2;
   width: 75%;
   align-self: center;
+  margin-top: 35px;
+}
+
+header .e-mail,
+header button {
+  margin-top: 20px;
 }
 
 header .sign-up {
   align-self: center;
+  margin-top: 10px;
 }
+
+/*  */
 
 /* width < 768px */
 /* 768px < widht < 960px */
@@ -104,8 +113,8 @@ header .sign-up {
 
   .menu .menu-line {
     background-color: grey;
-    width: 8vh;
-    height: 1vh;
+    width: 33px;
+    height: 4px;
   }
 }
 
