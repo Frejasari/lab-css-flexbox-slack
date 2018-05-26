@@ -84,16 +84,18 @@ header {
   flex-direction: column;
 }
 
-header .e-mail {
+.get-started .e-mail {
   border: 1px solid grey;
   border-radius: 5px;
   padding: 10px 10px;
   color: grey;
+  margin-top: 20px;
 }
 
-header button {
+.get-started button {
   background-color: #192592;
   color: white;
+  margin-top: 20px;
 }
 
 header .header-img {
@@ -103,12 +105,8 @@ header .header-img {
   margin-top: 35px;
 }
 
-header .e-mail,
-header button {
-  margin-top: 20px;
-}
-
-header .sign-up {
+.get-started p {
+  text-align: center;
   align-self: center;
   margin-top: 10px;
 }
