@@ -18,11 +18,24 @@ body {
 header,
 main,
 footer {
-  padding: 35px 7vw;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-h1 {
+main .related-companies,
+main .get-started,
+header,
+footer {
+  padding-right: 7vw;
+  padding-left: 7vw;
+}
+
+h1,
+h2 {
   padding: 25px 0;
+}
+h2 {
+  padding-top: 40px;
 }
 
 h1,
@@ -120,10 +133,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+main .related-companies {
   background-color: #f4f3f4;
 }
 
 main .main-samples {
+  margin-top: 20px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
