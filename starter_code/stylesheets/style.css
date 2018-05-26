@@ -32,7 +32,6 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  /* width: 100vw; */
   height: 40px;
   background-color: white;
   display: flex;
@@ -45,19 +44,35 @@ nav img {
   height: 100%;
 }
 
+.nav-items {
+  display: none;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+
+.menu .menu-line {
+  background-color: grey;
+  width: 33px;
+  height: 4px;
+}
+
 /* HEADER */
 
 header {
   margin-top: 14vh;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
 }
 
 header .e-mail {
   border: 1px solid grey;
   border-radius: 5px;
-  /* height: 35px; */
   padding: 10px 10px;
   color: grey;
 }
@@ -97,24 +112,6 @@ header .sign-up {
 @media (max-width: 768px) {
   body {
     background-color: red;
-  }
-
-  .nav-items {
-    display: none;
-    align-items: center;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 3px;
-  }
-
-  .menu .menu-line {
-    background-color: grey;
-    width: 33px;
-    height: 4px;
   }
 }
 
