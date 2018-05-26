@@ -76,13 +76,7 @@ nav img {
   height: 4px;
 }
 
-/* HEADER */
-
-header {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-}
+/* GET STARTED - DIVS */
 
 .get-started .e-mail {
   border: 1px solid grey;
@@ -98,17 +92,25 @@ header {
   margin-top: 20px;
 }
 
+.get-started p {
+  text-align: center;
+  align-self: center;
+  margin-top: 10px;
+}
+
+/* HEADER */
+
+header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 header .header-img {
   order: 2;
   width: 75%;
   align-self: center;
   margin-top: 35px;
-}
-
-.get-started p {
-  text-align: center;
-  align-self: center;
-  margin-top: 10px;
 }
 
 /* MAIN */
